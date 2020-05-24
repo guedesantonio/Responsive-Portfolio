@@ -7,9 +7,13 @@
   }
 
   h2 {
-      color: black;
+      color: white;
   }
   
+  p {
+      color: white;
+  }
+
   body {
     height: 100%;
     width:100%;
@@ -17,7 +21,7 @@
     overflow: hidden;
     font-size: 18px;
     line-height: 27px;
-    background-color: rgb(78, 194, 149);
+    background-color: rgb(134, 148, 177);
   }
 
 nav, .navbar, .navbar-expand-lg,.navbar-light {
@@ -30,7 +34,7 @@ nav, .navbar, .navbar-expand-lg,.navbar-light {
 }
 
 .navbar-brand{
-    background-color: rgb(78, 194, 149);
+    background-color: rgb(134, 148, 177);
 }
 
 .mask, .rgba-gradient, .align-items-center {
@@ -38,13 +42,17 @@ height: 1000px;
 }
 
 .container {
-    background-color: red;
-    height: 800px;
-    width: 400px;
+    background-color: rgb(134, 148, 177);
+    margin: 60px;
+    height: 700px;
+    width: 600px;
 }
 
 footer {
-    background-color: rgb(78, 194, 149);
+    background-color: rgb(134, 148, 177);
 }
 
- 
+ img {
+     margin: 20px;
+     margin-right: 40px;
+ }

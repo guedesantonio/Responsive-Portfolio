@@ -1,0 +1,90 @@
+
+ /* quick reset */
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  h1 {
+      color: white;  
+  }
+
+  h2 {
+      color: white;
+  }
+  
+  p {
+      color: white;
+  }
+
+  body {
+    height: 100%;
+    width:100%;
+    margin: 0;
+    overflow: hidden;
+    font-size: 18px;
+    line-height: 27px;
+    background-color: rgb(134, 148, 177);
+  }
+
+nav, .navbar, .navbar-expand-lg,.navbar-light {
+    background-color: rgb(236, 235, 235);
+    padding-top: 0;
+    padding-left: 100px;
+    padding-bottom: 0;
+    padding-right: 100px;
+    
+}
+
+.navbar-brand{
+    background-color: rgb(134, 148, 177);
+}
+
+.mask, .rgba-gradient, .align-items-center {
+height: 1000px;
+}
+
+.container {
+    background-color: rgb(134, 148, 177);
+    margin: 60px;
+    height: 700px;
+    width: 600px;
+}
+
+footer {
+    background-color: rgb(134, 148, 177);
+}
+
+ img {
+     margin: 20px;
+     margin-right: 40px;
+ }
+  
+  /* relevant styles */
+  .img__wrap {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .img__description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+  
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+  
+  .img__wrap:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+  }

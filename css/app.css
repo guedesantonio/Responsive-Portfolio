@@ -1,142 +1,123 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/*!
+ * Start Bootstrap - Agency v5.1.1 (https://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
+ */
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
+ body {
+  overflow-x: hidden;
+  font-family: sans-serif;
+  letter-spacing: 0.2px;
+}
+
+p {
+  line-height: 1.75;
+}
+
+hr { 
+  border: 0;
+  height: 1px; 
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+a {
+  color: #55CAD9;
+}
+
+a:hover {
+  color: #55CAD9;
+}
+
+.text-primary {
+  color: #55CAD9 !important;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  
-  /* Positioning */
-  margin: 0;
-  vertical-align: baseline;
-
-  /* Box-model */
-  padding: 0;
-
-  /* Typography */
-  font-size: 100%;
-  font: inherit;
-
-  /* Visual */
-  border: 0;
-  
+h6 {
+  font-weight: 700;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section { display: block; }
-
-body { line-height: 1; }
-
-ol,
-ul { list-style: none; }
-
-blockquote,
-q { quotes: none; }
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  
-  /* Misc */
+h2:after {
   content: '';
-  content: none;
-
+  display: block;
+  border: 2px solid black;
+  width: 100px;
+  margin: 15px auto;
+  background: black;
 }
 
-table {
-  
-  /* Visual */
-  border-collapse: collapse;
-  border-spacing: 0;
+/*START IMPORTING*/
 
+.tech-row:after {
+  content: ".";
+}
+.tech-column {
+  float: left;
+}
+.tech-text-align-center {
+  text-align: center;
+}
+.tech-bg-layout-dark, .tech-bg-layout-dark h1, .tech-bg-layout-dark h2, .tech-bg-layout-dark h3, .tech-bg-layout-dark h4, .tech-bg-layout-dark h5, .tech-bg-layout-dark h6 {
+  color: #fff !important;
+}
+.tech-blurb-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.tech-main-blurb-image {
+  margin-bottom: 30px;
+}
+
+#goodreads {
+  text-align: center;
+}
+
+#qualificacoes ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  position: relative;
+  float: left;
+}
+#qualificacoes ul li {
+  list-style: none;
+  background-color: rgba(0,0,0,0.4);
+  color: #fff;
+  position: relative;
+  float: left;
+  padding: 3px 10px;
+  margin: 4px;
+  cursor: pointer;
+  transition: all .4s!important;
+  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+  text-transform: uppercase;
+  min-width: 60px;
+  font-size: 10pt;
+}
+
+#qualificacoes ul li:hover {
+  background-color: rgba(255,255,255,1);
+  color: #000;
+}
+
+/*END IMPORTING*/
+
+.img-fluid {
+  height: auto;
+  align-self: middle;
+}
+
+.page-section {
+  padding: 100px 0;
 }

@@ -318,9 +318,6 @@ header.masthead .intro-text .intro-heading {
   justify-content: left;
 }
 
-svg {
-  margin-left: -20px;
-}
 
 @media (min-width: 768px) {
   .hide-big-screens {

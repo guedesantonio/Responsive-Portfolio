@@ -34,7 +34,7 @@ app.get("/sendEmail", function(req, res){
     
     var mailOptions = {
       from: req.query.email,
-      to: 'wagnerlopes.au@gmail.com',
+      to: 'gguedesantonio@gmail.com',
       subject: req.query.name + ' - ' + req.query.phone,
       text: req.query.message + "<br>Email: " + req.query.email
     };
@@ -55,16 +55,16 @@ app.post("/sendEmail", function(req, res){
 
   //Send email to wagnerlopes.au@gmail.com
   var from = req.body.email;
-  var to = 'wagnerlopes.au@gmail.com';
+  var to = 'gguedesantonio@gmail.com';
   var subject = req.body.name + ' - ' + req.body.phone;
   var text = req.body.message + "\n\nEmail: " + req.body.email;
   sendEmail (from, to, subject, text);
 
   //Send feedback email to the client
-  from = 'wagnerlopes.au@gmail.com';
+  from = 'gguedesantonio@gmail.com';
   to = req.body.email;
-  subject = 'Contact - Wagner Lopes';
-  text = "Hi " + req.body.firstName + ",\n\nThank you for contacting me!\n\nI will analyze your email and get back to you as soon as possible, ok?\n\nYour Message: \n\n======\n" + req.body.message + "\n=====\n\n\nBest Regards!\nWagner Lopes\nwagnerlopes.au@gmail.com\n+61 451 631 417";
+  subject = 'Contact - Antonio Guedes';
+  text = "Hi " + req.body.firstName + ",\n\nThank you for contacting me!\n\nI will analyze your email and get back to you as soon as possible, ok?\n\nYour Message: \n\n======\n" + req.body.message + "\n=====\n\n\nBest Regards!\nAntonio Guedes\ngguedesantonio@gmail.com\n+61 450 628 249";
 
   sendEmail (from, to, subject, text);
   
@@ -75,7 +75,7 @@ function sendEmail (from, to, subject, text) {
   var transporter = nodeMailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'wagnerlopes.au@gmail.com',
+      user: 'gguedesantonio@gmail.com',
       pass: 'Testparm#3'
     },
     tls:{

@@ -76,18 +76,12 @@ function sendEmail (from, to, subject, text) {
     service: 'gmail',
     auth: {
       user: 'gguedesantonio@gmail.com',
-      pass: 'Testparm#3'
+      pass: 'gege101101'
     },
     tls:{
       rejectUnauthorized: false
     }
-    // host: 'smtp.zoho.com',
-    // port: 465,
-    // secure: true, // use SSL
-    // auth: {
-    //     user: 'me@wagnerlopes.com.au',
-    //     pass: 'Testparm#3'
-    // }
+    
   });
   
   var mailOptions = {

@@ -25,7 +25,7 @@
   The website has a navbar where you can click to scroll directly to the desired area. Under the Portfolio section you can click on the projects image to see a brief description.
   Also at the end is possible to messages inputing your information on the input fields.
 
-  ![BurgerApp](./public/assets/img/portfolioSS.png)
+  ![PortfolioSS](./public/img/portfolioSS.png)
 
   ## License
   This project is licensed under the MIT.

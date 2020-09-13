@@ -26,15 +26,15 @@ hr {
 }
 
 a {
-  color: #55CAD9;
+  color: #2F89C5;
 }
 
 a:hover {
-  color: #55CAD9;
+  color: #2F89C5;
 }
 
 .text-primary {
-  color: #55CAD9 !important;
+  color: #2F89C5 !important;
 }
 
 h1,
@@ -56,6 +56,9 @@ h2:after {
   background: black;
 }
 
+#resumetext{
+  text-shadow: 0 2px 2px black;
+}
 /*START IMPORTING*/
 
 .tech-row:after {
@@ -155,13 +158,13 @@ h2:after {
 }
 
 .btn-primary {
-  background-color: #55CAD9;
-  border-color: #55CAD9;
+  background-color: #2F89C5;
+  border-color: #2F89C5;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #55CAD9 !important;
-  border-color: #55CAD9 !important;
+  background-color: #2F89C5 !important;
+  border-color: #2F89C5 !important;
   color: white;
 }
 
@@ -198,12 +201,12 @@ h2:after {
 }
 
 ::-moz-selection {
-  background: #55CAD9;
+  background: #2F89C5;
   text-shadow: none;
 }
 
 ::selection {
-  background: #55CAD9;
+  background: #2F89C5;
   text-shadow: none;
 }
 
@@ -261,7 +264,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 #mainNav {
-  background-color: #212529;
+  background-color: #2F89C5;
 }
 
 #mainNav .navbar-toggler {
@@ -271,17 +274,17 @@ header.masthead .intro-text .intro-heading {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #55CAD9;
+  background-color: #2F89C5;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand {
-  color: #55CAD9;
+  color: #2F89C5;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #55CAD9;
+  color: #2F89C5;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -294,7 +297,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #55CAD9;
+  color: #2F89C5;
 }
 
 
@@ -387,7 +390,7 @@ header.masthead .intro-text .intro-heading {
   #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #212529;
+    background-color: #2F89C5;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -511,8 +514,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 #linkedin-timeline-div:hover {
-  border: 7px solid #55CAD9;
-  background-color: #55CAD9;
+  border: 7px solid #2F89C5;
+  background-color: #2F89C5;
 }
 
 #linkedin-timeline-heading {
@@ -609,7 +612,7 @@ header.masthead .intro-text .intro-heading {
   /* IE 9 */
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
-  background-color: #212529;
+  background-color: #2F89C5;
 }
 
 .portfolio-modal .close-modal .lr .rl {
@@ -620,7 +623,7 @@ header.masthead .intro-text .intro-heading {
   /* IE 9 */
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
-  background-color: #212529;
+  background-color: #2F89C5;
 }
 
 .timeline {
@@ -678,7 +681,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .blue-bkg {
-  background-color: #55CAD9;
+  background-color: #2F89C5;
 }
 
 .timeline > li .timeline-image {
@@ -697,8 +700,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 .timeline > li .timeline-image:hover {
-  border: 7px solid #55CAD9;
-  background-color: #55CAD9;
+  border: 7px solid #2F89C5;
+  background-color: #2F89C5;
 }
 
 .timeline > li .timeline-image h4 {
@@ -848,7 +851,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-color: #212529;
+  background-color: #2F89C5;
   background-image: url("../img/map-image2.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -877,7 +880,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #55CAD9;
+  border-color: #2F89C5;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -933,9 +936,9 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #212529;
+  background-color: #2F89C5;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #55CAD9;
+  background-color: #2F89C5;
 }

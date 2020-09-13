@@ -17,7 +17,7 @@
 
   ## Installation
   
-  This app is hosted on heroku. You can access the app by clicking [here](https://www.guedesantonio.com).
+  This app is hosted on heroku. You can access the app by clicking [here](http://www.guedesantonio.com).
 
 
   ## Usage
